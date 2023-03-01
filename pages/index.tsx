@@ -2,7 +2,7 @@ import InputText from "@/src/components/InputText"
 import LoginForm from "@/src/components/LoginForm"
 import SubmitButton from "@/src/components/SubmitButton"
 import Image from "next/image"
-import { BoardWrapper, BodyWrapper, HeaderTextWrapper, HeaderWrappper, ImageWrapper } from "./styles"
+import { BoardWrapper, BodyWrapper, HeaderTextWrapper, HeaderWrappper, ImageWrapper } from "../src/styles/styles"
 
 const Home = () => {
   return(
