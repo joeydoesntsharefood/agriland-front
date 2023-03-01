@@ -4,9 +4,18 @@ export const BoardWrapper = styled.div`
   background: #fbfbfb;
   border-radius: 8px;
   box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
-  height: 410px;
   margin: 6rem auto 8.1rem auto;
   width: 329px;
+  padding: 10px;
+`
+
+export const BoardForgetPasswordWrapper = styled.div`
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  margin: 6rem auto 8.1rem auto;
+  width: 329px;
+  padding: 10px;
 `
 
 export const HeaderWrappper = styled.div`
@@ -31,4 +40,17 @@ export const HeaderTextWrapper = styled.div`
 export const BodyWrapper = styled.div`
   display: flex;
   justify-content: center;
+`
+
+export const BodyForgetPasswordWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+`
+
+export const OtherOptionsWrapper = styled.div`
+  margin: 8px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
 `
