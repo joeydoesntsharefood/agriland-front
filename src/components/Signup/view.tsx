@@ -1,16 +1,17 @@
+import { BoardWrapper } from "@/src/styles/styles"
 import { IViewProps } from "../Login/types"
 import SubmitButton from "../SubmitButton"
 
 const View = ({ changeOption }: IViewProps) => {
   return (
-    <>
-      <SubmitButton onClick={() => console.log('teste')}>
+    <BoardWrapper>
+      <SubmitButton  onClick={() => console.log('teste')}>
         Enviar
       </SubmitButton>
       <SubmitButton onClick={() => changeOption('signin')}>
         Voltar
       </SubmitButton>
-    </>
+    </BoardWrapper>
   )
 }
 
