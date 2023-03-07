@@ -54,3 +54,8 @@ export const OtherOptionsWrapper = styled.div`
   gap: 8px;
   flex-direction: column;
 `
+
+export const WrapperSchedule = styled.div`
+  display: flex;
+  flex-direction: column;
+`

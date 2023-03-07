@@ -20,9 +20,6 @@ const View = ({ changeOption } : IViewProps) => {
         <LoginForm />
       </BodyWrapper>
       <OtherOptionsWrapper>
-        <SubmitButton onClick={() => changeOption('signup')}>
-          Cadatrar-se
-        </SubmitButton>
         <SubmitButton onClick={() => changeOption('forgetPassword')}>
           Esqueci a senha
         </SubmitButton>
